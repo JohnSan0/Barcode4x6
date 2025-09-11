@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  body {
+    margin: 0;
+    background: white;
+  }
+
+  @page {
+    size: 4in 6in;
+    margin: 0;
+  }
+}
