@@ -29,10 +29,10 @@ export default function LabelPreview() {
     <div className="p-4 bg-white">
       <div
         style={{
-          width: '6in',
-          height: '4in',
+          width: '0in',
+          height: '2in',
           margin: '0 auto',
-          border: '1px solid black',
+          // border: '1px solid black', // Lines up without need for border
           backgroundColor: 'white',
           display: 'flex',
           flexWrap: 'wrap',
